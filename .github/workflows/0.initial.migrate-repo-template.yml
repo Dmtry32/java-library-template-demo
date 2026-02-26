@@ -6,12 +6,12 @@ on:
       group:
         description: 'Artifact groupId'
         required: true
-        default: 'org.acme'
+        default: 'io.github.dmtry32'
         type: string
       name:
         description: 'Artifact artifactId (recommended to align with repo name)'
         required: true
-        default: 'fancy-library-name'
+        default: 'java-library-template-demo'
         type: string
       package:
         description: 'Artifact package'
@@ -21,7 +21,7 @@ on:
       email:
         description: 'Contact email (CODE_OF_CONDUCT.md)'
         required: true
-        default: 'info@yourdomain.com'
+        default: 'anas.moussaoui@ump.ac.ma'
         type: string
 
 jobs:
